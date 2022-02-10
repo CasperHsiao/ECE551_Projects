@@ -1,0 +1,10 @@
+
+input1.txt
+shorttxt skinnytxt
+short.txt
+tall.txt
+skinny.txt
+fat.txt
+empty.txt
+EOF.txt
+normal.txt

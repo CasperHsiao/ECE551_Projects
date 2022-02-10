@@ -1,0 +1,28 @@
+#error
+printCountries large_number.csv
+printCountries short.csv
+printCountries very_short.csv
+printCountries invalid.csv
+printCountries only_population.csv
+printCountries blank.csv
+printCountries only_name.csv
+printCountries no_comma.csv
+printCountries long_name.csv
+printCountries large_number.csv
+printCountries empty_population.csv
+
+#success
+printCountries population.csv
+printRunningAvg population.csv daily_small.csv
+printCumulative population.csv daily_small.csv
+printDailyMax population.csv daily_small.csv
+printRunningAvg population.csv daily_cases.csv
+printCumulative population.csv daily_cases.csv
+printDailyMax population.csv daily_cases.csv
+
+printCountries float.csv
+printCountries fraction.csv
+printCountries negative.csv
+printCountries max-1_population.csv
+printCountries max_population.csv
+printCountries weird_population.csv

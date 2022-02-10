@@ -1,0 +1,3 @@
+adj:V Scary
+big animal:Gorilla
+big animal:Big Rhino

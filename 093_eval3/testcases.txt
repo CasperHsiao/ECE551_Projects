@@ -1,0 +1,36 @@
+#error
+
+cyoa-step2 test/step2/noWin
+cyoa-step2 test/step2/noLose
+cyoa-step2 test/step2/pgNotRef
+cyoa-step2 test/step2/pgRefOOB
+cyoa-step1 test/step1/abcpage1.txt
+cyoa-step1 test/step1/page1abc.txt
+cyoa-step1 test/step1/page-1.txt
+cyoa-step1 test/step1/page1.txt.txt
+cyoa-step1 test/step1/page99999999999999999999.txt
+cyoa-step1 test/step1/pageP.txt
+cyoa-step1 test/step1/noChoice/page1.txt
+cyoa-step1 test/step1/doubleWin/page1.txt
+cyoa-step1 test/step1/noHash/page1.txt
+cyoa-step1 test/step1/negPgNum/page1.txt
+cyoa-step1 test/step1/noColon/page1.txt
+
+
+
+#success
+cyoa-step1 test/step1/noStory/page1.txt
+cyoa-step1 test/step1/emptyChoice/page1.txt
+cyoa-step4 test/cycle
+cyoa-step4 test/no_win
+cyoa-step4 test/story-diamond-win
+cyoa-step4 test/step3/backUp
+cyoa-step4 test/step4/manyWin
+cyoa-step3 test/cycle
+cyoa-step3 test/no_win
+cyoa-step3 test/story-diamond-win
+cyoa-step3 test/step3/backUp
+cyoa-step3 test/step4/manyWin
+cyoa-step2 test/cycle < test/step2/cycleInput.txt
+cyoa-step2 test/no_win < test/step2/noWinInput.txt
+cyoa-step2 test/story-diamond-win < test/step2/diamondInput.txt

@@ -1,0 +1,46 @@
+#error
+story-step1 tempNoClosing.txt
+
+story-step2 wNoColon.txt
+story-step2 wLineFeed.txt
+
+story-step3 wBlank.txt story2.txt
+
+story-step4 -n word.txt tempUseOver.txt
+story-step4 -n wSameWords.txt 4tempSameWordsOver.txt
+
+#success
+
+story-step1 story.txt
+story-step1 story2.txt
+story-step1 1tempCatEnd.txt
+story-step1 1tempEmptyCat.txt
+story-step1 tempBlank.txt
+
+story-step2 words.txt
+story-step2 wBlank.txt
+story-step2 wDoubleColon.txt
+story-step2 wSpaces.txt
+story-step2 wEmptyCat.txt
+story-step2 wEmptyWords.txt
+story-step2 wSameWords.txt
+
+story-step3 words.txt story.txt
+story-step3 words.txt story2.txt
+story-step3 words.txt tempBlank.txt
+story-step3 words.txt 1tempCatEnd.txt
+story-step3 wEmptyCat.txt 1tempEmptyCat.txt
+story-step3 words.txt 43tempPrevWords.txt
+story-step3 wDoubleColon.txt 43tempDoubleColon.txt
+story-step3 wSpaces.txt 43tempSpaces.txt
+story-step3 wEmptyWords.txt 43tempEmptyWord.txt
+
+story-step4 -n words.txt story.txt
+story-step4 -n words.txt story2.txt
+story-step4 words.txt story.txt
+story-step4 words.txt story2.txt
+story-step4 words.txt 4tempUseOver.txt
+story-step4 -n words.txt 4tempUseUp.txt
+story-step4 -n words.txt 4tempUseUpThenInt.txt
+story-step4 -n wSameWords.txt 4tempSameWords.txt
+story-step4 wSameWords.txt 4tempSameWordsOver.txt
